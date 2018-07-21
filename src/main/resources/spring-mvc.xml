@@ -40,10 +40,9 @@
     </context:component-scan>
 
     <!-- 添加注解驱动 -->
-
     <mvc:annotation-driven enable-matrix-variables="true" />
-    <!-- 允许对静态资源文件的访问 -->
 
+    <!-- 允许对静态资源文件的访问 -->
     <mvc:default-servlet-handler />
 
     <!-- 定义跳转的文件的前后缀 ，视图模式配置 -->

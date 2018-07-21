@@ -1,22 +1,21 @@
-package com.binco.ssm.service.impl;
+package com.binco.ssm.service;
 
 import com.binco.ssm.dao.TestDao;
 import com.binco.ssm.model.TestModel;
-import com.binco.ssm.service.ITestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
  * @author: Qiaoguo Zhang
- * @date: 2018/7/16 14:07
+ * @date: 2018/7/20 10:47
  * @description:
  */
 @Service
-public class TestServiceImpl implements ITestService {
+public class PersonService {
+
     //@Autowired
     private TestDao testDao;
 
-    @Override
     public TestModel getModelById(int id) {
         return testDao.getModelById(id);
     }

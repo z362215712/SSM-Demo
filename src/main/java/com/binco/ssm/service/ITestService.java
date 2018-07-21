@@ -10,7 +10,7 @@ import javax.jws.WebService;
  * @date: 2018/7/16 14:02
  * @description:
  */
-
+@Service
 public interface ITestService {
     public TestModel getModelById(int id);
 }

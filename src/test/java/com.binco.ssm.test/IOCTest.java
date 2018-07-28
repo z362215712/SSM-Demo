@@ -18,13 +18,19 @@ public class IOCTest {
     @Test
     @SuppressWarnings("resource")
     public void testIOC() {
+//        AnnotationConfigApplicationContext annotationConfigApplicationContext =
+//                new AnnotationConfigApplicationContext(MainConfig.class);
+//        String[] names = annotationConfigApplicationContext.getBeanDefinitionNames();
+//        for (String name : names) {
+//            System.out.println(name);
+//        }
+
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
-                new AnnotationConfigApplicationContext(MainConfig.class);
+                new AnnotationConfigApplicationContext(MainConfig2.class);
         String[] names = annotationConfigApplicationContext.getBeanDefinitionNames();
         for (String name : names) {
             System.out.println(name);
         }
-
     }
 
     @Test

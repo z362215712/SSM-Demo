@@ -1,6 +1,8 @@
 package com.binco.ssm.config;
 
+import com.binco.ssm.bean.ColorFactoryBean;
 import com.binco.ssm.condition.LinuxCondition;
+import com.binco.ssm.condition.MyImportSelector;
 import com.binco.ssm.condition.WindowsCondition;
 import com.binco.ssm.controller.PersonController;
 import com.binco.ssm.model.PersonModel;
@@ -15,7 +17,7 @@ import org.springframework.stereotype.Service;
  * @description:
  */
 @Configuration
-@Import(TestModel.class)
+@Import({TestModel.class, MyImportSelector.class})
 public class MainConfig2 {
     @Bean(name = "Person")
     //@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
@@ -36,4 +38,10 @@ public class MainConfig2 {
     public PersonModel Person2() {
         return new PersonModel("Linus", 20);
     }
+
+//    @Bean
+//    public ColorFactoryBean colorFactoryBean() {
+//        return new ColorFactoryBean();
+//    }
+
 }

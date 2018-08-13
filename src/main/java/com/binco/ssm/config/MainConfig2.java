@@ -1,15 +1,11 @@
 package com.binco.ssm.config;
 
-import com.binco.ssm.bean.ColorFactoryBean;
 import com.binco.ssm.condition.LinuxCondition;
 import com.binco.ssm.condition.MyImportSelector;
 import com.binco.ssm.condition.WindowsCondition;
-import com.binco.ssm.controller.PersonController;
 import com.binco.ssm.model.PersonModel;
 import com.binco.ssm.model.TestModel;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Service;
 
 /**
  * @author: Qiaoguo Zhang
@@ -38,10 +34,5 @@ public class MainConfig2 {
     public PersonModel Person2() {
         return new PersonModel("Linus", 20);
     }
-
-//    @Bean
-//    public ColorFactoryBean colorFactoryBean() {
-//        return new ColorFactoryBean();
-//    }
 
 }

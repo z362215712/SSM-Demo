@@ -1,9 +1,8 @@
 package com.binco.ssm.test;
 
-import com.binco.ssm.config.MainConfig;
 import com.binco.ssm.config.MainConfig2;
 import com.binco.ssm.model.PersonModel;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 

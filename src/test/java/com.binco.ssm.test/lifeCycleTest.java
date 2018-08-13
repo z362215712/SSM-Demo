@@ -1,7 +1,7 @@
 package com.binco.ssm.test;
 
-import com.binco.ssm.config.MainConfigOfLIfeCycle;
-import org.junit.jupiter.api.Test;
+import com.binco.ssm.config.MainConfigOfLifeCycle;
+import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -12,9 +12,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class lifeCycleTest {
     @Test
     public void test(){
-        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfigOfLIfeCycle.class);
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfigOfLifeCycle.class);
         //需要手动关闭单例模式下的bean
         //多例的此方法关不了
         annotationConfigApplicationContext.close();
     }
 }
+
+

@@ -7,45 +7,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a79b519-791c-414c-98a0-7bde3f0df72c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethodHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/IPeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigPropertyValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/AOPController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/TeacherProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/person.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/autowiredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/junitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/propertyValueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/proxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/LogAspects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/BinfaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/IBinfaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/impl/BinfaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_AOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/springmvcMybatis/ssm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/springmvcMybatis/ssm.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfLIfeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/model/PersonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/model/PersonModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/IOCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/lifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/lifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/MathCaculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/MathCaculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/aspect/AuthMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/aspect/AuthMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/aspect/AuthMethodHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/aspect/AuthMethodHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Boss.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/ColorFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/ColorFactoryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/IPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/IPeople.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/MyBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Red.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Red.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/bean/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/LinuxCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/LinuxCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/MyImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/MyImportSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/WindowsCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/condition/WindowsCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfig2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigOfAutowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigOfAutowired.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigOfLIfeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigOfLIfeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigPropertyValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MainConfigPropertyValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/config/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/AOPController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/AOPController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/dao/TestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/Color.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/PersonModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/PersonModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/TestModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/model/TestModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/ITestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/ITestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/TeacherProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/TeacherProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/impl/TestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binco/ssm/service/impl/TestServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/IOCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/IOCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/autowiredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/autowiredTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/junitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/junitTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/lifeCycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/lifeCycleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/propertyValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/propertyValueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/proxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/binco/ssm/test/proxyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,29 +79,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="proxyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/proxyTest.java">
+      <file leaf-file-name="AuthMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthMethodHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethodHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Thread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="junitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/junitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainConfigAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigAll.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="WebApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+            <state relative-caret-position="367">
+              <caret line="105" column="61" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContextConfiguration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/.m2/repository/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
+      <file leaf-file-name="StringBuffer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JDK 1.8/src.zip!/java/lang/StringBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="446">
+              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JDK 1.8/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="122" column="2" lean-forward="true" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+              <folding>
+                <element signature="e#19103#19104#0" expanded="true" />
+                <element signature="e#19161#19162#0" expanded="true" />
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+                <element signature="e#24329#24330#0" expanded="true" />
+                <element signature="e#24394#24395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JDK 1.8/src.zip!/java/util/Hashtable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="368" column="13" lean-forward="true" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/JDK 1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="1023" column="29" selection-start-line="1023" selection-start-column="29" selection-end-line="1023" selection-end-column="29" />
+              <folding>
+                <element signature="e#44347#44348#0" expanded="true" />
+                <element signature="e#44395#44396#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,12 +222,24 @@
       <find>junit</find>
       <find>MainConfigAll</find>
       <find>Handler</find>
-      <find>aspect</find>
       <find>Enable</find>
+      <find>aspect</find>
+      <find>initBeanFactory</find>
+      <find>beanFactory.addBeanPostProcessor(post</find>
+      <find>orderedPostProcessorNames</find>
+      <find>singletonObject</find>
+      <find>运营商</find>
+      <find>sharedInstance</find>
+      <find>init</find>
+      <find>destory</find>
+      <find>BeanPostProcessor</find>
+      <find>Driver</find>
+      <find>syn</find>
     </findStrings>
     <dirStrings>
       <dir>E:\workplace\Test\ssm\src\main\java\com\binco</dir>
       <dir>E:\workplace\Test\ssm\src\main\java</dir>
+      <dir>E:\workplace\Test\ssm\src\main\java\com\binco\ssm</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -138,17 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/dao/TestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/TestMapper" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/test/IOCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/ITestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/impl/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-bean.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MyFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MyConfig2.java" />
@@ -189,6 +288,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/junitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/proxyTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/MathCaculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfAop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/LogAspects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_AOP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfAOP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/BinfaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/BinfaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/IBinfaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/binco/ssm/service/impl/BinfaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java" />
       </list>
     </option>
   </component>
@@ -231,8 +341,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,15 +359,114 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.binco.ssm.test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Processor&#9;FILE&#9;jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java&#10;ApplicationContextAwarePro&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;PostCons&#9;PSI&#9;JAVA://javax.annotation.PostConstruct&#10;JSR250&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigUtils#jsr250Present" />
+    <property name="SearchEverywhereHistoryKey" value="ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;StringBuffer&#9;PSI&#9;JAVA://java.lang.StringBuffer&#10;WebApplicationContext &#9;PSI&#9;JAVA://org.springframework.web.context.WebApplicationContext&#10;webApplicationContext&#9;PSI&#9;JAVA://org.springframework.web.context.WebApplicationContext&#10;BeanFac&#9;FILE&#9;jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java&#10;AnnotationAwareAspectJAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;Processor&#9;FILE&#9;jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java&#10;ApplicationContextAwarePro&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;PostCons&#9;PSI&#9;JAVA://javax.annotation.PostConstruct&#10;JSR250&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigUtils#jsr250Present" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="F:/尚硅谷Spring源码分析/spring-annotation" />
@@ -294,14 +501,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.proxyTest.test1 (1)">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.MainTest" />
+  <component name="RunManager" selected="JUnit.Test_lock1.test1">
+    <configuration name="Test_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.Test_Thread" />
       <module name="ssm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.binco.ssm.*" />
+          <option name="PATTERN" value="com.binco.ssm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,23 +516,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="junitTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_AOP.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +527,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.binco.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.junitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.Test_AOP" />
       <option name="METHOD_NAME" value="testGetUserById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -348,7 +539,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="proxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_lock1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
@@ -359,9 +550,48 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.binco.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.proxyTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.Test_lock1" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_lock1.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binco.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.binco.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.Test_lock1" />
+      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -384,29 +614,6 @@
       <option name="PACKAGE_NAME" value="com.binco.ssm.test" />
       <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.proxyTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="proxyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.binco.ssm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.binco.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.binco.ssm.test.proxyTest" />
-      <option name="METHOD_NAME" value="test1(com.binco.ssm.controller.AOPController)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -513,19 +720,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.TOMCAT" />
-      <item itemvalue="JUnit.proxyTest.test" />
-      <item itemvalue="JUnit.proxyTest.test1" />
       <item itemvalue="JUnit.proxyTest.test1 (1)" />
-      <item itemvalue="JUnit.junitTest.testGetUserById" />
-      <item itemvalue="Application.MainTest" />
+      <item itemvalue="JUnit.Test_AOP.testGetUserById" />
+      <item itemvalue="Application.Test_Thread" />
+      <item itemvalue="JUnit.Test_lock1.testGetUserById" />
+      <item itemvalue="JUnit.Test_lock1.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_lock1.test1" />
+        <item itemvalue="Application.Test_Thread" />
+        <item itemvalue="JUnit.Test_lock1.testGetUserById" />
+        <item itemvalue="JUnit.Test_AOP.testGetUserById" />
         <item itemvalue="JUnit.proxyTest.test1 (1)" />
-        <item itemvalue="JUnit.junitTest.testGetUserById" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="JUnit.proxyTest.test" />
-        <item itemvalue="JUnit.proxyTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -553,44 +760,46 @@
       <workItem from="1533708239511" duration="586000" />
       <workItem from="1533776129170" duration="6451000" />
       <workItem from="1533863174085" duration="15340000" />
-      <workItem from="1534123250576" duration="1565000" />
+      <workItem from="1534123250576" duration="27407000" />
+      <workItem from="1534298236400" duration="16178000" />
+      <workItem from="1534468321917" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="junitTest_testGetUserById - 2018.08.10 at 15h 30m 18s.xml">
-      <configuration name="junitTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="Test_AOP_testGetUserById - 2018.08.13 at 19h 18m 45s.xml">
+      <configuration name="Test_AOP.testGetUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="junitTest_testGetUserById - 2018.08.10 at 15h 37m 58s.xml">
-      <configuration name="junitTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="Test_lock1_testGetUserById - 2018.08.15 at 11h 28m 48s.xml">
+      <configuration name="Test_lock1.testGetUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="junitTest_testGetUserById - 2018.08.10 at 15h 42m 07s.xml">
-      <configuration name="junitTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="Test_lock1_test1 - 2018.08.15 at 11h 30m 16s.xml">
+      <configuration name="Test_lock1.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="junitTest_testGetUserById - 2018.08.10 at 15h 42m 22s.xml">
-      <configuration name="junitTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="Test_lock1_testGetUserById - 2018.08.15 at 11h 30m 24s.xml">
+      <configuration name="Test_lock1.testGetUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.10 at 15h 56m 28s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_testGetUserById - 2018.08.15 at 11h 30m 35s.xml">
+      <configuration name="Test_lock1.testGetUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.10 at 17h 05m 54s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_test1 - 2018.08.15 at 11h 30m 49s.xml">
+      <configuration name="Test_lock1.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.10 at 17h 06m 28s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_testGetUserById - 2018.08.15 at 11h 47m 27s.xml">
+      <configuration name="Test_lock1.testGetUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.13 at 09h 30m 06s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_test1 - 2018.08.15 at 15h 09m 07s.xml">
+      <configuration name="Test_lock1.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.13 at 09h 30m 33s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_test1 - 2018.08.16 at 10h 13m 26s.xml">
+      <configuration name="Test_lock1.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="proxyTest_test1_(1) - 2018.08.13 at 10h 01m 04s.xml">
-      <configuration name="proxyTest.test1 (1)" configurationId="JUnit" />
+    <history-entry file="Test_lock1_test1 - 2018.08.16 at 10h 13m 58s.xml">
+      <configuration name="Test_lock1.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102047000" />
+    <option name="totallyTimeSpent" value="146537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,39 +816,39 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.32957748" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.36641222" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.41311476" />
       <window_info anchor="bottom" id="Application Servers" order="2" weight="0.32957748" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="5" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Structure" order="12" sideWeight="0.38867188" side_tool="true" visible="true" weight="0.17217484" />
+      <window_info anchor="right" id="Structure" order="12" sideWeight="0.25512105" side_tool="true" visible="true" weight="0.23827292" />
+      <window_info anchor="right" id="JSF" order="7" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="16" weight="0.44043717" />
+      <window_info anchor="bottom" id="Debug" order="16" sideWeight="0.49840087" weight="0.41311476" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.32957748" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32786885" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32839507" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32881773" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49946696" visible="true" weight="0.2874317" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49840087" weight="0.2874317" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="8" weight="0.32957748" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32957748" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6113281" visible="true" weight="0.17377399" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32896176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6113281" visible="true" weight="0.17697228" />
+      <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.49906892" weight="0.14498934" />
       <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="11" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="JSF" order="7" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23827292" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Find" order="11" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.74487895" visible="true" weight="0.23827292" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49946696" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="10" />
     </layout>
@@ -694,379 +903,525 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>284</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>241</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.class</url>
+          <line>21</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator" method="setBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.class</url>
+          <line>30</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator" method="initBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java</url>
+          <line>53</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator" method="setBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java</url>
+          <line>62</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator" method="initBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>271</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" method="postProcessAfterInstantiation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="53" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig2.java">
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="1357">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/model/PersonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Red.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="897">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#6339#6340#0" expanded="true" />
+            <element signature="e#6366#6367#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Teacher.java">
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="621">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2783">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15203">
+          <caret line="760" selection-start-line="760" selection-end-line="760" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17503">
+          <caret line="866" selection-start-line="866" selection-end-line="866" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4991">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8860#8861#0" expanded="true" />
+            <element signature="e#11028#11029#0" expanded="true" />
+            <element signature="e#11280#11281#0" expanded="true" />
+            <element signature="e#11298#11299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897" />
+        <state relative-caret-position="153">
+          <caret line="1225" selection-start-line="1225" selection-end-line="1225" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-bean.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/MyBeanPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/BinfaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="14" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/lang/annotation/Aspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="111" column="27" lean-forward="true" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/lang/annotation/Before.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="403" column="10" lean-forward="true" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/lang/annotation/Around.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/aopalliance/intercept/Invocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/aopalliance/intercept/Joinpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/aopalliance/intercept/MethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/TeacherProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="517" column="35" selection-start-line="517" selection-start-column="35" selection-end-line="517" selection-end-column="35" />
+        <state relative-caret-position="207">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAroundAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK 1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="420" selection-start-line="420" selection-end-line="420" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK 1.8/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK 1.8/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/lang/ProceedingJoinPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/aspectj/MethodInvocationProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/org/aspectj/runtime/internal/AroundClosure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/impl/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/ITestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/IBinfaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/service/impl/BinfaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK 1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/HierarchicalBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/ColorFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/bean/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/model/TestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/model/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/model/PersonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/autowiredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/MathCaculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aop/LogAspects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigOfAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_AOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="122" selection-start-line="14" selection-start-column="122" selection-end-line="14" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_lock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/Test_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/config/MainConfigAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/controller/AOPController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/junitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="299">
+          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/binco/ssm/aspect/AuthMethodHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="483">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
             <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
             <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
+    <entry file="jar://E:/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="367">
+          <caret line="105" column="61" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.binco.ssm.test/proxyTest.java">
+    <entry file="jar://D:/JDK 1.8/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="446">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://D:/JDK 1.8/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="368" column="13" lean-forward="true" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK 1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="122" column="2" lean-forward="true" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+          <folding>
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK 1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="1023" column="29" selection-start-line="1023" selection-start-column="29" selection-end-line="1023" selection-end-column="29" />
+          <folding>
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
